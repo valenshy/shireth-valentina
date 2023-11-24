@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	background-color: pink;
+	text-align: center;
+	padding: 20px;
+	color:white;
+	font-size: 40px;
+}
+
+.navegacion ul{
+	list-style: none;
+	text-align: center;
+	background-color: lightcoral;
+	padding:0;
+	margin:0;
+}
+.navegacion li{
+	display: inline-block;
+
+}
+
+.navegacion .menu{
+	color:white;
+	text-decoration: none;
+	width:100px;
+	display: block;
+	cursor: pointer;
+	trensition: .5s;
+}
+
+.menu:hover{
+	background-color: black;
+}
+
+.titulo2{
+	margin-top: 200px;
+}
+
+body{
+	background-image: linear-gradient(45deg,
+		#ff0000,
+		#fffb00,
+		#5EFF00,
+		#FF5100,
+		#00F7FF,
+		#F700E2);
+	background-size: 900% 200%;
+	height: 90VH;
+	animation: animate1 20s Linear infinite;
+}
+@keyframes animate1{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+
+.boton{
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-1{
+	background-color: white;
+	padding: 15px 35px;
+	cursor: pointer;
+	font-size: 18px;
+	text-decoration: none;
+	color: darkblue;
+	border-radius: 5px;
+	transition: .4s ease;
+	margin-left: 40px;
+}
+.btn-1:hover{
+	color: black;
+	box-shadow: 0 0 10px white,
+	            0 0 30px white,
+	            0 0 70px white,
+	            0 0 130px white;
+}

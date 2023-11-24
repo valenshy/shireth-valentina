@@ -1,0 +1,73 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+
+.contenido{
+	border: solid darksalmon;
+	 height: 800px;
+	 margin: 100px;
+	 padding: 100px;
+	 width: 1100px;
+}
+
+.titulo{
+	background-color: lightpink;
+	border: solid darksalmon;
+	 height: 80px;
+	 margin: 20px;
+	 padding: 10px;
+	width: 970px;
+}
+
+
+.content1{
+	background-color: lightgoldenrodyellow;
+	display: flex;
+
+}
+
+.content2{
+	background-color: lightgoldenrodyellow;
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+	width: 1030px;
+
+}
+.caja1{
+	background-color: lightpink;
+	border: solid darksalmon;
+	 margin: 20px;
+	height: 400px;
+	width: 450px;
+	padding: 10px;
+}
+.caja2{
+	background-color: lightpink;
+	border: solid darksalmon;
+	 margin: 20px;
+	height: 400px;
+	width: 400px;
+	padding: 10px;
+}
+.caja3{
+	background-color: lightpink;
+	border: solid darksalmon;
+	 margin: 20px;
+	height: 200px;
+	width: 450px;
+	padding: 10px;
+}
+.caja4{
+	background-color: lightpink;
+	border: solid darksalmon;
+	 margin: 20px;
+	height: 200px;
+	width: 450px;
+	padding: 10px;
+}
+img{
+	height: 300px;
+	width: 400px;
+	padding-left: 20px;
+}

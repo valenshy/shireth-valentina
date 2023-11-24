@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#0028FF;
+    padding:17px;
+}
+
+.logo{
+    color:#fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.listas{
+    display: inline-block;
+    color:#fff;
+    padding: 6px;
+    font-weight: bold;
+    transition:.3s ease;
+}
+
+.listas a{
+    color:#fff;
+    text-decoration: none;
+    margin-left: 3px;
+    transition:.3s ease;
+}
+
+.listas:hover{
+    color:#000;
+}
+
+.listas>a:hover{
+    color:#000;
+}
